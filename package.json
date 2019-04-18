@@ -10,7 +10,8 @@
     "start:dev": "concurrently \"npm run client\" \"npm run server\"",
     "start:prod": "NODE_ENV=production node ./index.js",
     "deploy": "npm run client:build && npm run start:prod",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd client && npm i"
   },
   "author": "",
   "license": "ISC",
