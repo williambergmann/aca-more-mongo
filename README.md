@@ -11,6 +11,10 @@ Take a look at how the client folder is structured inside this project. We've pu
 ## Tickets CRUD
 Hints/Intructions are located in `express/controllers` and `express/routes` but are summarized here. You will be creating routes, controller functions, and mongoose functions (inside the controller functions) to access the data. 
 
+### Prerequisite
+
+1. Add your connection string to the `mongoose.connect` function in index.js
+
 
 ### Part 1 - GET (Read)
 
